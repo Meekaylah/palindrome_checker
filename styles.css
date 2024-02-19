@@ -60,3 +60,7 @@ img {
     color: #fff;
     cursor: pointer;
 }
+
+.palindrome-result {
+    display: hidden;
+}
