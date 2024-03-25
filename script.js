@@ -7,7 +7,10 @@ const checkWord = (text) => {
     const string = text.value;
     const lcase = string.toLowerCase();
     const reverse = [...lcase].reverse().join('');
-    reverse === lcase ? alert(`${string} is a palindrome`) : alert(`${string} is NOT a palindrome`);
+    const pal = `<p class = user-input> <strong>${string}</strong> is a palindrome</p>`;
+    const npal = `<p class = user-input> <strong>${string}</strong> is not a palindrome</p>`;
+    result.classList.remove("hidden");
+    reverse === lcase ? result.innerHTML = pal : result.innerHTML = npal; 
 }
 
 checkBtn.addEventListener("click", () => {

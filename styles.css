@@ -72,7 +72,7 @@ label {
     cursor: pointer;
 }
 
-.palindrome-result {
+.hidden {
     display: hidden;
 }
 
