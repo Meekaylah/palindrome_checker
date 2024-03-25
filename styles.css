@@ -76,6 +76,12 @@ label {
     display: hidden;
 }
 
+.user-input {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
 .palindrome-definition-div {
     width: min(100vw, 450px);
     font-size: 1.3rem;
